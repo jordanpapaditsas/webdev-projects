@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 15vh;
+  display: flex;
+  background-color: #424344;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.year {
+  margin-right: 15%;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  margin-right: 110px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+}
+
+.nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.content-img {
+  background-image: url(../ex4/tep-aueb-darken.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-webProgramming {
+  width: 45%;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin-top: 15%;
+}
+
+.info-webProgramming {
+  font-size: 28px;
+  color: rgb(221, 218, 218);
+  margin-top: 5%;
+  text-align: center;
+  width: 31%;
+}
+
+.info-development {
+  border: 30px solid white;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.title-development {
+  text-align: start;
+  margin-bottom: 30px;
+}
+
+footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border: 30px solid #424344;
+  background-color: #424344;
+}
+
+.social-media a:link i,
+.social-media a:visited i {
+  font-size: 30px;
+  color: #3b5998;
+}
+
+.social-media a:hover i {
+  color: #1da1f2;
+}

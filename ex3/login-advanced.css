@@ -1,0 +1,73 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outer {
+  width: 28%;
+  height: 500px;
+  background-color: brown;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 90%;
+  height: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 6px solid cornflowerblue;
+  border-radius: 20px;
+}
+
+.inside {
+  margin-top: 20px;
+  padding: 10px 0;
+  margin-left: 20px;
+}
+
+.email input {
+  background-image: url(../ex3/account.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 30px;
+  text-indent: 35px;
+
+}
+
+.password input {
+  background-image: url(../ex3/password.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 30px;
+  text-indent: 35px;
+}
+
+.size input {
+  padding: 20px 0;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.btn {
+  background-color: cornflowerblue;
+  width: 40%;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+::placeholder {
+  text-indent: 40px;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}

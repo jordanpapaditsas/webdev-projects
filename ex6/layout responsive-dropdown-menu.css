@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 20vh;
+  display: flex;
+  background-color: #424344;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.year {
+  margin-right: 12rem;
+}
+
+/* Navbar - dropdown menu */
+.navbar {
+  width: 100%;
+}
+
+.navbar > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+.nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.dropdown  a {
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown-content {
+  background-color: #424344;
+  padding: 1rem;
+  display: none;
+  position: absolute;
+  list-style: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20rem;
+}
+
+.dropdown-content li {
+  padding: 1rem;
+  width: 100%;
+}
+
+.dropdown-content li:hover {
+  background-color: white;
+}
+
+.dropdown-content li:hover a {
+  color: black;
+}
+
+.dropdown:hover ul {
+  display: flex;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger span {
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: .7rem;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-toggle:checked ~ .nav {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+/* Main Section */
+
+.content-img {
+  background-image: url(../ex6/tep-aueb-darken.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-webProgramming {
+  width: 50.5rem;
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin-top: 10.5rem;
+}
+
+.info-webProgramming {
+  font-size: 2rem;
+  color: rgb(221, 218, 218);
+  margin-top: 5%;
+  text-align: center;
+  width: 30.5rem;
+}
+
+.info-development {
+  border: 3rem solid white;
+  text-align: center;
+}
+
+.title-development {
+  text-align: start;
+  margin-bottom: 1.5rem;
+}
+
+/* Footer Section */
+
+footer {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border: 1.5em solid #424344;
+  background-color: #424344;
+}
+
+.social-media a:link i,
+.social-media a:visited i {
+  font-size: 2rem;
+  color: #3b5998;
+}
+
+.social-media a:hover i {
+  color: #1da1f2;
+}
+
+/* Media Queries */
+@media (max-width: 1300px) {
+
+  .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    align-items: flex-end;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .aueb-logo img {
+    width: 20rem;
+  }
+
+  .year img {
+    width: 10rem;
+  }
+
+  .nav li a {
+    font-size: 1rem;
+    padding: .8rem;
+    left: .5rem;
+  }
+
+
+  .navbar > ul {
+    display: none;
+  }
+
+  .menu-toggle:checked ~ ul {
+    position: fixed;
+    top: 4rem;
+    right: 1rem; 
+    left: auto;
+  }
+
+  .title-webProgramming {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .info-webProgramming {
+    width: 100%;
+    font-size: 1.8rem;
+    margin-top: 4%;
+  }
+
+  .info-development {
+    border-width: 1rem;
+  }
+
+  .copyrights {
+    margin-right: 2.5rem;
+  }
+
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-media a {
+    margin: .3rem;
+  }
+
+  .social-media a:link i {
+    font-size: 1.5rem;
+  }
+
+}
+
+/*Mobile Width  */
+@media (max-width: 645px) {
+
+  header {
+    height: 17vh;
+  }
+
+  .aueb-logo img {
+    width: 15rem;
+  }
+
+  .year img {
+    width: 7rem;
+  }
+
+  .nav li a {
+    font-size: .8rem;
+  }
+  
+  .title-webProgramming {
+    font-size: 2rem;
+  }
+
+  .info-webProgramming {
+    height: 25rem;
+    font-size: 1.5rem;
+  }
+
+  .copyrights {
+    font-size: .8rem;
+  }
+
+  .follow {
+    font-size: .8rem;
+  }
+
+  .social-media a:link i {
+    font-size: 1.3rem;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: .6rem;
+  }
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+</head>
+<body>
+    <form name="Άσκηση-2" method="get">
+        <h1>Payment Form</h1>
+        <h5>Please fill all the mandatory information followed by the special char:  &nbsp<abbr title="Required field" abbr style="color: red;">*</abbr></h5>
+        <h2>Personal Info</h2>
+        <fieldset style="width: 210px;">
+            <legend>Title</legend>
+            <div>
+                <input type="radio" name="gender" value="mister" id="mister">
+                <label for="mister"><b>Mr.</b></label><br>
+            </div>    
+            <div>
+                <input type="radio" name="gender" value="miss" id="miss">
+                <label for="miss"><b>Ms.</b></label><br>
+            </div>
+            <div>
+                <input type="radio" name="gender" value="doctor" id="doctor">
+                <label for="doctor"><b>Dr.</b></label><br>
+            </div>
+        </fieldset>
+
+            <div>
+                <br><label for="name">Name &nbsp<abbr title="Required field" abbr style="color: red;">*</abbr></label>
+                <input type="text" name="firstname" id="firstname"><br><br>
+            </div> 
+            <div>   
+                <label for="email">E-mail &nbsp <abbr title="Required field" abbr style="color: red;">*</abbr></label>
+                <input type="email" name="email" id="email"><br><br>
+            </div>
+            <div>    
+                <label for="password">Password &nbsp <abbr title="Required field" abbr style="color: red;">*</abbr></label>
+                <input type="password" name="password" id="password">
+            </div>
+           
+        <h2>Payment Information</h2>
+
+            <div>
+                <label for="card">Card Type: &nbsp</label>
+                <select name="Card" id="card">
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="AmericanExpress">AmericanExpress</option>
+                </select><br><br>
+            </div>
+            <div>
+                <label for="cardnumber">Card number: &nbsp <abbr title="Required field" abbr style="color: red;">*</abbr></label>
+                <input type="text" name="cardnumber" id="cardnumber"><br><br>
+            </div>
+            <div>
+                <label for="expiration-date">Expiration date: &nbsp <abbr title="Required field" abbr style="color: red;">*</abbr></label>
+                <input type="text"  placeholder="MM/YYYY" maxlength="7"><br><br>
+            </div>
+            <div>
+                <input type="submit" name="submit" value="Προχωρήστε στην πληρωμή">
+            </div>
+        </form>
+</body>
+</html>

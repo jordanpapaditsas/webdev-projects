@@ -1,0 +1,168 @@
+ body {
+    margin-left: 5%;
+    width: auto;
+    height: 100vh;
+    background: linear-gradient(
+        to right, white 0%, white 50%, darkcyan 50%, darkcyan 100%);                   
+  }
+
+.bio-name {
+    height: 15px;
+}
+
+.bio-occupation {
+    color: darkcyan;
+    margin: 30px;
+    margin-top: 1px;
+    text-indent: 15px;
+}
+
+.email {
+    margin-top: 1%;
+}
+
+.bio {
+    width: 470px;
+}
+
+.horizontal-line {
+    width: 600px;
+    margin-right: 100%;
+}
+
+.exp-gapple {
+    color: darkcyan;
+    height: 2px;
+}
+
+.gapple-info {
+    width: 470px;
+}
+
+.container-gapple {
+    display: flex;
+}
+
+.timePeriod-gapple {
+    margin-left: 15.5%;
+}
+
+.exp-gapple {
+    margin-top: 0%;
+    height: auto;
+}
+
+ul > li {
+    width: 470px;
+}
+
+.exp-dapple {
+    color: darkcyan;
+    height: 2px;
+    margin-top: 0%;
+}
+
+.dapple-info {
+    width: 450px;
+}
+
+.timePeriod-dapple {
+    margin-left: 15%;
+}
+
+.container-dapple {
+    display: flex;
+}
+
+.technologies {
+    color: darkcyan;
+}
+
+.edu-date {
+    display: flex;
+}
+
+.time-period-cf {
+    margin-left: 5%;
+}
+
+.highschool-date {
+    display: flex;
+}
+
+.time-period-highschool {
+    margin-left: 13%;
+    
+}
+
+.pfp {
+    position: absolute;
+    right: 750px;
+    bottom: 745px;
+}
+
+.small-line {
+    border-color: black;
+    float: right;
+    margin-right: 39%;
+    position: relative;
+    bottom: 1100px;
+    width: 175px;
+    margin-left: 90%;
+}
+   
+.hobbies {
+    float: right;
+    margin-right: 41%;
+    position: relative;
+    bottom: 1100px;
+}
+
+.hobbies-categories {
+    float: right;
+    margin-right: 20%;
+    position: relative;
+    bottom: 1105px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: darkorchid;
+}
+
+a:focus {
+    outline: none;
+    background-color: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+   background-color: darkcyan;
+   color: white;
+}
+
+.courses {
+    float: right;
+    margin-right: -33.5%;
+    margin-top: -65.9%;
+}
+
+.small-line-courses {
+    border-color: black;
+    float: right;
+    margin-right: -43%;
+    margin-top: -61.6%;
+    width: 389px;
+}
+
+.courses-titles {
+    float: right;
+    margin-right: -50%;
+    margin-top: -61.4%;
+}

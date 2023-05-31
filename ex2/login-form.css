@@ -1,0 +1,78 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.outer {
+  width: 20%;
+  height: 40vh;
+  background-color: cornflowerblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10.5rem auto;
+  padding: 1.9rem 0;
+  text-align: center;
+}
+
+.inner {
+  width: 60%;
+  height: 32vh;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounded {
+  border-radius: .5rem;
+}
+
+.login {
+  font-size: 1.7rem;
+  color: cornflowerblue;
+  display: block;
+  padding: 1.5rem;
+}
+
+.gap {
+  margin-bottom: 1.4rem;
+}
+
+.gap input {
+  padding: .4rem;
+  border: none;
+  background-color: rgba(240, 240, 240, 0.925);
+  border-radius: .6rem;
+}
+
+#btn {
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+  padding: .6rem;
+  width: 40%;
+}
+
+#btn:hover {
+  opacity: 0.5;
+}
+
+::placeholder {
+  color: gray;
+}
+
+.footer, a .footer {
+  color: white;
+  margin-top: 2.1rem;
+}
+
+.link-password {
+  color: rgb(173, 173, 167);
+}
+
+
+
+
+

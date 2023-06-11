@@ -22,6 +22,7 @@ Chapters covered:
   <li>CSS Grid Layout - Flexbox vs Grid</li>
   <li>Introduction to Bootstrap</li>
   <li>Design Thinking - UX/UI - Agile/Scrum</li>
+  <li>Introduction to JavaScript</li>
 </ol>  
 
 ## Tools & IDEs 

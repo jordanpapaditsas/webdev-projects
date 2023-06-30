@@ -1,4 +1,4 @@
-# [Web Development-Projects](https://codingfactory.aueb.gr/)
+# [Web Development-Projects Coding Factory](https://codingfactory.aueb.gr/)
 ## Description  
 Projects I created throughout the curriculum for the [Coding Factory](https://codingfactory.aueb.gr/),  with the use of the following Technologies: 
 <ul>

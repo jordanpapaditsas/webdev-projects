@@ -1,6 +1,6 @@
 # [Web Development-Projects](https://codingfactory.aueb.gr/)
 ## Description  
-Projects I created throughout the curriculum with the use of the following Technologies: 
+Projects I created throughout the curriculum for the [Coding Factory](https://codingfactory.aueb.gr/),  with the use of the following Technologies: 
 <ul>
   <li>JavaScript</li>
   <li>HTML5</li>
@@ -23,6 +23,8 @@ Chapters covered:
   <li>Introduction to Bootstrap</li>
   <li>Design Thinking - UX/UI - Agile/Scrum</li>
   <li>Introduction to JavaScript</li>
+  <li>JavaScript Data Types</li>
+  <li>JavaScript Objects, JSON strings & Functions</li>
 </ol>  
 
 ## Tools & IDEs 

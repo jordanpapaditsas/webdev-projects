@@ -28,7 +28,7 @@ Chapters covered:
 </ol>  
 
 ## Tools
-Various tools and IDEs that used and taught throughout the curriculum: 
+Various tools that used and taught throughout the curriculum: 
 <ul>
   <li>Visual Studio Code</li>
   <li>Gimp</li>

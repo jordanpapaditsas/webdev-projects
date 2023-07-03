@@ -27,7 +27,7 @@ Chapters covered:
   <li>JavaScript Objects, JSON strings & Functions</li>
 </ol>  
 
-## Tools & IDEs 
+## Tools
 Various tools and IDEs that used and taught throughout the curriculum: 
 <ul>
   <li>Visual Studio Code</li>
